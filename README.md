@@ -1,24 +1,23 @@
-# media-converter
+# Media Converter
+
+A media files converter based on `Vue.js` + `Electron` + `FFMpeg`
 
 ## Project setup
 ```
-yarn install
+yarn
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn electron:serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+yarn electron:build
 ```
 
 ### Lints and fixes files
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
