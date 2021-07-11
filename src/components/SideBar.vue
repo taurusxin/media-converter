@@ -1,5 +1,8 @@
 <template>
-  <el-menu :default-openeds="['transcoding', 'merge-split', 'title']" router default-active="index">
+  <el-menu :default-openeds="['transcoding', 'merge-split', 'title']"
+           router
+           default-active="index"
+           style="padding-top: 40px">
 
     <el-menu-item index="index">
       <template #title><i class="el-icon-house"></i>首页</template>

@@ -15,8 +15,11 @@ async function createWindow () {
   const win = new BrowserWindow({
     title: 'Media Converter',
     width: 1000,
-    height: 730,
-    frame: true,
+    height: 732,
+    minWidth: 1000,
+    minHeight: 732,
+    titleBarStyle: 'hiddenInset',
+    useContentSize: true,
     webPreferences: {
 
       // Use pluginOptions.nodeIntegration, leave this alone

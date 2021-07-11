@@ -1,11 +1,13 @@
 <template>
-  <div class="app">
+  <div class="app" style="height: 100%">
     <router-view></router-view>
   </div>
 </template>
 
 <style lang="scss">
-body {
-  margin: 0 !important;
+html, body, #app, .el-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 </style>
