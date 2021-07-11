@@ -20,6 +20,7 @@ async function createWindow () {
     minHeight: 732,
     titleBarStyle: 'hiddenInset',
     useContentSize: true,
+    frame: false,
     webPreferences: {
 
       // Use pluginOptions.nodeIntegration, leave this alone
