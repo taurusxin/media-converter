@@ -10,4 +10,9 @@ html, body, #app, .el-container {
   padding: 0;
   margin: 0;
 }
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 </style>
